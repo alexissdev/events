@@ -3,5 +3,5 @@ plugins {
 }
 
 subprojects {
-    apply(plugin = "alexisdev.spigot-conventions")
+    apply(plugin = "alexissdev.spigot-conventions")
 }

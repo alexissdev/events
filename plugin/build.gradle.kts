@@ -1,5 +1,5 @@
 plugins {
-    id("alexisdev.common-conventions")
+    id("alexissdev.common-conventions")
     id("net.minecrell.plugin-yml.bukkit") version "0.5.1"
     id("com.github.johnrengelman.shadow") version "7.1.2"
 }
@@ -23,7 +23,7 @@ tasks {
 
 bukkit {
     val projectName = "${findProperty("plugin-name")}"
-    main = "dev.alexisdev.${projectName.toLowerCase()}.${projectName}Plugin"
+    main = "dev.alexissdev.${projectName.toLowerCase()}.${projectName}Plugin"
     apiVersion = "1.13"
     version = "${project.version}"
     authors = listOf("AlexisDev")

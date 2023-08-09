@@ -1,5 +1,5 @@
 plugins {
-    id("alexisdev.common-conventions")
+    id("alexissdev.common-conventions")
 }
 
 repositories {
