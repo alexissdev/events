@@ -4,6 +4,8 @@ plugins {
 
 repositories {
     mavenLocal()
+    maven("https://jitpack.io")
+    maven("https://repo.unnamed.team/repository/unnamed-public/")
     mavenCentral()
 }
 

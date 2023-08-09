@@ -1,3 +1,3 @@
 rootProject.name = "events"
 
-include("api", "plugin")
+include("api", "plugin", "game-api")
