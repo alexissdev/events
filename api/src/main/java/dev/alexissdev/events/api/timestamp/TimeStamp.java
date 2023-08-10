@@ -1,4 +1,4 @@
-package dev.alexissdev.game.api.timestamp;
+package dev.alexissdev.events.api.timestamp;
 
 import dev.alexissdev.commons.validate.Validate;
 import java.util.concurrent.TimeUnit;

@@ -5,6 +5,7 @@ plugins {
 dependencies {
     compileOnly(libs.spigot)
 
+    api(project(":api"))
     implementation(libs.commons.validation)
     implementation(libs.commons.error)
     implementation(libs.storage.mongo)
