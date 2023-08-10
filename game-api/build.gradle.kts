@@ -3,9 +3,12 @@ plugins {
 }
 
 dependencies {
+    compileOnly(libs.spigot)
+
     implementation(libs.commons.validation)
     implementation(libs.commons.error)
     implementation(libs.storage.mongo)
     implementation(libs.commons.storage.mongo)
-    compileOnly(libs.spigot)
+    implementation(libs.message.core)
+    implementation(libs.item.nbt)
 }

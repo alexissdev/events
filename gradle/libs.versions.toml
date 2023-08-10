@@ -6,10 +6,12 @@ message-core = "7.0.0"
 storage-mongo = "v2.2.0"
 storage-yaml = "v2.2.0"
 command = "0.5.2"
+item-nbt = "2.10.0"
 
 [libraries]
 # The spigot library
 spigot = { group = "org.spigotmc", name = "spigot-api", version.ref = "spigot" }
+item-nbt = { group = "de.tr7zw", name = "item-nbt-api", version.ref = "item-nbt" }
 
 # The injector library
 inject = { group = "team.unnamed", name = "inject", version.ref = "inject" }

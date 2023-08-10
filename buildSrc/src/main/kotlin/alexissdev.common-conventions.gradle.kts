@@ -6,6 +6,7 @@ repositories {
     mavenLocal()
     maven("https://jitpack.io")
     maven("https://repo.unnamed.team/repository/unnamed-public/")
+    maven("https://repo.codemc.io/repository/maven-public/")
     mavenCentral()
 }
 
