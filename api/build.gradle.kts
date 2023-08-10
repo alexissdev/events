@@ -1,9 +1,11 @@
 plugins {
-    id("java")
+    id("alexissdev.spigot-conventions")
 }
+
 
 dependencies {
     api(libs.commons.bukkit)
+    compileOnly(libs.spigot)
     implementation(libs.inject)
     implementation(libs.message.core)
     implementation(libs.message.bukkit)

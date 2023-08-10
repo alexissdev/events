@@ -1,6 +1,6 @@
 package dev.alexissdev.game.api.user;
 
-import dev.alexissdev.game.api.backup.UserBackup;
+import dev.alexissdev.events.api.user.backup.UserBackup;
 import dev.alexissdev.game.api.user.status.UserStatus;
 import java.util.UUID;
 import org.bukkit.Bukkit;

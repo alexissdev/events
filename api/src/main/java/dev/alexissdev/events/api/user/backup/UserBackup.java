@@ -1,4 +1,4 @@
-package dev.alexissdev.game.api.backup;
+package dev.alexissdev.events.api.user.backup;
 
 import dev.alexissdev.commons.validate.Validate;
 import java.util.Collection;
