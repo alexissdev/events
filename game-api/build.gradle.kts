@@ -12,4 +12,5 @@ dependencies {
     implementation(libs.commons.storage.mongo)
     implementation(libs.message.core)
     implementation(libs.item.nbt)
+    implementation(libs.inject)
 }
