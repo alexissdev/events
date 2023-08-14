@@ -2,6 +2,7 @@ package dev.alexissdev.game.api;
 
 import dev.alexissdev.game.api.configuration.GameConfiguration;
 import dev.alexissdev.game.api.host.GameHost;
+import dev.alexissdev.game.api.reward.GameReward;
 import dev.alexissdev.game.api.status.GameStatus;
 import org.jetbrains.annotations.NotNull;
 import team.unnamed.pixel.storage.model.Model;
@@ -9,39 +10,60 @@ import team.unnamed.pixel.storage.mongo.codec.DocumentCodec;
 
 public interface GameTemplate extends Model, DocumentCodec {
 
-    /**
-     * Get the configuration of the game
-     * @return The configuration of the game
-     */
-    
-    GameConfiguration getConfiguration();
+  /**
+   * Get the configuration of the game
+   *
+   * @return The configuration of the game
+   */
 
-    /**
-     * Get the host of the game
-     * @return The host of the game
-     */
+  GameConfiguration getConfiguration();
 
-    GameHost getHost();
+  /**
+   * Get the host of the game
+   *
+   * @return The host of the game
+   */
 
-    /**
-     * Set the host of the game
-     * @param host The host of the game
-     */
+  GameHost getHost();
 
-    void setHost(@NotNull GameHost host);
+  /**
+   * Set the host of the game
+   *
+   * @param host The host of the game
+   */
 
-    /**
-     * Get the status of the game
-     * @return The status of the game
-     */
-    
-    GameStatus getStatus();
+  void setHost(@NotNull GameHost host);
 
-    /**
-     * Set the status of the game
-     * @param status The status of the game
-     */
-    
-    void setStatus(@NotNull GameStatus status);
+  /**
+   * Get the status of the game
+   *
+   * @return The status of the game
+   */
+
+  GameStatus getStatus();
+
+  /**
+   * Set the status of the game
+   *
+   * @param status The status of the game
+   */
+
+  void setStatus(@NotNull GameStatus status);
+
+  /**
+   * Get the reward of the game
+   *
+   * @return The reward of the game
+   */
+
+  GameReward getReward();
+
+  /**
+   * Set the reward of the game
+   *
+   * @param reward The reward of the game
+   */
+
+  void setReward(@NotNull GameReward reward);
 
 }
