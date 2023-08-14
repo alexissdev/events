@@ -8,4 +8,5 @@ dependencies {
     implementation(project(":game-api"))
     implementation(libs.storage.mongo)
     implementation(libs.inject)
+    implementation(libs.message.core)
 }
